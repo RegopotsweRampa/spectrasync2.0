@@ -53,6 +53,15 @@ body {
     font-size: 20px;
 }
 
+.hero {
+    text-align: center;
+    font-size: clamp(20px, 5vw, 70px);
+    margin-top: 100px;
+}
+#subText{
+    font-size: clamp(10px, 3vw, 30px);
+}
+
 @media (min-width: 1024px){
     .side-menu {
             position: static;
@@ -91,5 +100,10 @@ body {
     
         .hamburger {
             display: none;
+        }
+
+        .hero{
+            text-align: center;
+            font-size: 70px;
         }
 }
