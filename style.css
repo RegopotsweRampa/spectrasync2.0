@@ -59,7 +59,8 @@ body {
     margin-top: 100px;
 }
 #subText{
-    font-size: clamp(10px, 3vw, 30px);
+    font-size: clamp(16px, 4vw, 30px);
+    color: #a5a5a5;
 }
 
 @media (min-width: 1024px){
