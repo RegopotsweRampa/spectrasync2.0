@@ -9,7 +9,7 @@ body {
 }
 /*Hamburger Icon*/
 .hamburger {
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
     position: fixed;
     top: 15px;
@@ -59,9 +59,51 @@ body {
     margin-top: 100px;
 }
 #subText{
-    font-size: clamp(16px, 4vw, 30px);
+    font-size: clamp(16px, 5vw, 30px);
     color: #a5a5a5;
 }
+.hero-buttons{
+    margin-top: 40px;
+}
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    font-size: clamp(10px, 4vw, 20px);
+    border-radius: 30px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn.primary {
+    background-color: transparent;
+        color: #000000;
+        border: 2px solid #000000;
+
+}
+
+.btn.primary:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.btn.secondary:hover {
+    background-color: #000;
+        color: #ffffff;
+        border: 2px solid #000000;
+}
+
 
 @media (min-width: 1024px){
     .side-menu {
@@ -107,4 +149,8 @@ body {
             text-align: center;
             font-size: 70px;
         }
+        #subText{
+            margin-top: -80px;
+        }
+
 }
