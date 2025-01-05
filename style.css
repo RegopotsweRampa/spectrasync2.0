@@ -9,6 +9,7 @@ body {
     line-height: 1.6;
     padding: 20px 5%;
 }
+
 /*Hamburger Icon*/
 .hamburger {
     font-size: 40px;
@@ -322,6 +323,103 @@ section {
     background-color: #FF9800;
     color: #ffffff;
 }
+
+/* Contact Us Page */
+.contact-us {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-us h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.info-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.info-item p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.info-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.info-item a:hover {
+    color: #007BFF;
+}
+
+.contact-form {
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #444;
+}
+
 @media (min-width: 1024px){
     .side-menu {
             position: static;
