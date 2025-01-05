@@ -420,7 +420,35 @@ section {
     background-color: #444;
 }
 
+.cookie-policy {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
 
+.cookie-policy h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.cookie-policy h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.cookie-policy p,
+.cookie-policy ul {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.cookie-policy ul li {
+    margin-bottom: 10px;
+}
 
 @media (min-width: 1024px){
     .side-menu {
@@ -534,5 +562,20 @@ section {
 .image-container img {
     width: 100%;
     height: auto;
+}
+
+.cookie-policy {
+    max-width: 1024px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.cookie-policy h1 {
+    font-size: 2rem;
+}
+
+.cookie-policy p,
+.cookie-policy ul {
+    font-size: 1.2rem;
 }
 }
