@@ -6,6 +6,7 @@
 body {
     font-size: 16px;
     background-color: #f7f7f7;
+    line-height: 1.6;
 }
 /*Hamburger Icon*/
 .hamburger {
@@ -163,15 +164,71 @@ body {
     color: #666;
     line-height: 1.4;
 }
+main {
+    padding: 30px 10%;
+    margin-top: 50px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+ ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ ul li::before {
+     content: "• ";
+     color: #FF9800;
+     font-weight: bold;
+ }
 
 
+         footer {
+             text-align: center;
+             padding: 20px;
+             background-color: #000;
+             color: #fff;
+         }
+
+        a {
+            color: #FF9800;
+            text-decoration: none;
+        }
+
+/* Connect Section Styling */
+.connect-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Connect Section Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    font-size: 2em;
+    color: #333;
+}
+
+.social-icons a:hover {
+    color: #FF9800;
+}
 @media (min-width: 1024px){
     .side-menu {
             position: static;
             width: auto;
             height: auto;
             padding-top: 0;
-            background-color: transparent;
+            background-color: #f7f7f7;
             display: flex;
             justify-content: center;
             align-items: center;
