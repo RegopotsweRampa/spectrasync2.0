@@ -6,3 +6,4 @@ function toggleMenu() {
         menu.style.width = "250px"
     }
 }
+

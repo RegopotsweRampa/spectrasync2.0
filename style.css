@@ -76,29 +76,30 @@ body {
 
 .btn {
     text-decoration: none;
-    padding: 0.8rem 1.5rem;
-    font-size: clamp(10px, 4vw, 20px);
-    border-radius: 30px;
-    transition: background 0.3s, color 0.3s;
+        padding: 10px 20px;
+        font-size: clamp(10px, 4vw, 20px);
+        border-radius: 30px;
+        transition: background 0.3s, color 0.3s;
+        border: 2px solid #FF9800;
 }
 
 .btn.primary {
     background-color: transparent;
-        color: #000000;
-        border: 2px solid #000000;
+        color: #FF9800;
+        border: 2px solid #FF9800;
 
 }
 
 .btn.primary:hover {
     background-color: #000000;
     color: #ffffff;
-    border: 2px solid #000000;
+    border: 2px solid #FF9800;
 }
 
 .btn.secondary {
     background-color: transparent;
-    color: #000000;
-    border: 2px solid #000000;
+    color: #FF9800;
+    border: 2px solid #FF9800;
 }
 
 .btn.secondary:hover {
@@ -275,6 +276,52 @@ section {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.short-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.long-description {
+    display: none;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.read-more-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: clamp(10px, 4vw, 20px);
+    border-radius: 30px;
+    transition: background 0.3s, color 0.3s;
+    border: 2px solid #FF9800;
+}
+
+.read-more-btn:hover {
+    background-color: #FF9800;
+    color: #ffffff;
 }
 @media (min-width: 1024px){
     .side-menu {
