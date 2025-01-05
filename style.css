@@ -56,7 +56,8 @@ body {
 .hero {
     text-align: center;
     font-size: clamp(20px, 5vw, 70px);
-    margin-top: 200px;
+    margin-top: 250px;
+    margin-bottom: 200px;
 }
 #subText{
     font-size: clamp(16px, 5vw, 30px);
@@ -207,6 +208,7 @@ body {
         .hero{
             text-align: center;
             font-size: 70px;
+            margin-top: 00px;
         }
         #subText{
             margin-top: -80px;
