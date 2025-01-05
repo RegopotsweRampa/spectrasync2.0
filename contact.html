@@ -17,13 +17,63 @@
             <div id="menu" class="side-menu">
                 <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
                 <a href="index.html">Home</a>
-                <a href="#services">Services</a>
                 <a href="about.html">About Us</a>
-                <a href="javascript:void(0)">Blog</a>
+                <a href="https://spectrasync.blogspot.com/">Blog</a>
                 <a href="contact.html">Contact</a>
             </div>
         </nav>
     </header>
+
+    <main>
+    <section class="contact-us">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us. We're here to help!</p>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="info-item">
+                    <h3>Address</h3>
+                    <p>South Africa</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:spectrasync@outlook.com">spectrasync@outlook.com</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+27679050394">+27 67 905 0394</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>WhatsApp</h3>
+                    <p><a href="https://wa.me/27679050394" target="_blank">Chat on WhatsApp</a></p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="mailto:spectrasync@outlook.com" method="POST" enctype="multipart/form-data">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 SpectraSync. All rights reserved.</p>
+</footer>
+
         <script src="script.js"></script>
 </body>
 </html>

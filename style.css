@@ -94,7 +94,7 @@ body {
 .btn.primary:hover {
     background-color: #000000;
     color: #ffffff;
-    border: 2px solid #FF9800;
+    border: 2px solid #000000;
 }
 
 .btn.secondary {
@@ -419,6 +419,8 @@ section {
 .contact-form button:hover {
     background-color: #444;
 }
+
+
 
 @media (min-width: 1024px){
     .side-menu {
