@@ -223,6 +223,59 @@ section {
 .social-icons a:hover {
     color: #FF9800;
 }
+
+        /* Imagery Styling */
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack the items vertically for mobile */
+    align-items: center;
+    /* Center the items */
+    margin-bottom: 40px;
+}
+
+/* Image container */
+.image-container {
+    flex: 1;
+    /* Flex item takes up 1 equal portion of the available space */
+    padding: 10px;
+    order: 2;
+    /* Image comes second */
+}
+
+.image-container img {
+    width: 100%;
+    /* Image takes up full width of the container */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 8px;
+    /* Optional rounded corners */
+}
+
+/* Info container */
+.info-container {
+    flex: 1;
+    /* Info container takes up 1 equal portion of the available space */
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #333;
+    order: 1;
+    /* Info comes first */
+    text-align: center;
+    /* Center align the text */
+}
+
+.info-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
 @media (min-width: 1024px){
     .side-menu {
             position: static;
@@ -306,5 +359,34 @@ section {
             font-size: 1rem;
             line-height: 1.6;
         }
+.about-container {
+    flex-direction: row;
+    /* Display the items side by side on larger screens */
+    justify-content: space-between;
+    /* Distribute space between the image and info */
+    align-items: center;
+    /* Vertically center the content */
+}
 
+/* Image container */
+.image-container {
+    order: 1;
+    /* Image comes first */
+    flex: 1;
+    /* Take equal space */
+}
+
+.info-container {
+    order: 2;
+    /* Info comes second */
+    text-align: left;
+    /* Align text to the left on desktop */
+    flex: 1;
+    /* Take equal space */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
 }
