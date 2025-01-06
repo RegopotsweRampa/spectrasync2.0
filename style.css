@@ -451,6 +451,21 @@ section {
 }
 
 @media (min-width: 1024px){
+    header {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            position: fixed;
+            /* Fixes the header at the top */
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            /* Centers the header */
+            width: 100%;
+            z-index: 1000;
+            /* Makes sure it stays on top */
+            border-bottom: 1px solid #ddd;
+            /* Optional: Adds a bottom border to the header */
+        }
     .side-menu {
             position: static;
             width: auto;
